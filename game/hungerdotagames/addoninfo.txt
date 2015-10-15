@@ -2,11 +2,11 @@
 {
 
 	"TeamCount"  "1"
-	"maps"  "hdg_team_map"
+	"maps"  "hdg_minimap"
 	"IsPlayable" "1"
-	"hdg_team_map"
+	"hdg_minimap"
  	{
-  		"MaxPlayers" "10"
+  		"MaxPlayers" "6"
  	}
 
 
