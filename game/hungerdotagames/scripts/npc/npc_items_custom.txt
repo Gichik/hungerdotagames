@@ -1,5 +1,593 @@
 "DOTAAbilities"
 {
 
+	//=================================================================================================================
+	// simple items
+	//=================================================================================================================
 
+	
+	"item_mud"
+   {
+		"ID"							"1201" 
+		"BaseClass"						"item_dust"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName"			"mud" 
+		"Model"							"models/props_destruction/lava_flow_clump.vmdl" 
+		//"Effect"						"particles/generic_gameplay/dropped_dust.vpcf"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"5.0"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"3"
+		"ItemCost"						"1"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemAliases"					"mud"
+		"ItemStackable"					"1"
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 		
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"	
+		"ItemStackable" 				"1"	
+		"ItemPermanent" 				"0"		
+		"ItemSupport"					"1"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"900"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movespeed"				"-10"
+			}
+		}		
+		
+	
+  
+   }
+	
+
+ 	"item_linen"
+   {
+		"ID"							"1202" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/props_nature/mushroom_wild_02.vmdl" 
+		"AbilityTextureName"			"linen" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_linen"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+   }	  
+   
+
+   	"item_stone"
+   {
+		"ID"							"1203" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/particle/tiny_rocks.vmdl" 
+		"AbilityTextureName"			"stone" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_stone"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+   }    
+   
+   
+ 	"item_bone_fragments"
+   {
+		"ID"							"1204" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/props_bones/bone002.vmdl" 
+		"AbilityTextureName"			"bone_fragments" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_bone_fragments"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+   }	   
+
+
+ 	"item_arrow_tip"
+   {
+		"ID"							"1205" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/items/earthshaker/egset_particlerocks/egset_particlerocks.vmdl" 
+		"AbilityTextureName"			"arrow_tip" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_arrow_tip"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+   }
+
+
+  	"item_arrow"
+   {
+		"ID"							"1206" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/particle/legion_arrow.vmdl" 
+		"AbilityTextureName"			"arrow" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_arrow"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+   }  
+   
+   
+   	"item_bowstring"
+   {
+		"ID"							"1207" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/items/furion/father_shoulder/father_shoulder.vmdl" 
+		"AbilityTextureName"			"bowstring" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_bowstring"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"	
+   }    
+   
+ 
+ 
+ 
+  	//=================================================================================================================
+	// items with skills
+	//=================================================================================================================
+ 
+ 
+ 	"item_medicinal_herb"
+   {
+		"ID"							"1208" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED "
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"		
+		"Model"							"models/props_nature/lily_flower00.vmdl" 
+		"AbilityTextureName"			"medicinal_herb" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_medicinal_herb"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"
+		"AbilityChannelTime"			"2.0"		
+
+
+		"OnSpellStart"
+		{ 
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"GiveHealthParticle"
+				}	
+		}	
+		
+		"OnChannelSucceeded"
+		{     	         
+			  		  			
+				"Heal"
+				{
+					"HealAmount"	"30"
+					"Target"	"CASTER"
+				}
+				
+				"FireEffect"
+				{
+					"EffectName"	"particles/units/heroes/hero_bloodseeker/bloodseeker_bloodbath_heal.vpcf"
+					"EffectAttachType"	"follow_origin"				
+					"Target"	"CASTER"	
+				}			
+		
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"RemoveItemFromHero"
+					"item_name"			"item_medicinal_herb"
+				}
+
+		}  	
+  
+   }	
+
+
+	"item_branch"
+   {
+		"ID"							"1209" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"	
+		//"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		//"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/props_gameplay/branch.vmdl" 
+		"AbilityTextureName"			"branch"
+		"AbilityCooldown"				"10.0"		
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_branch"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" "1" 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"
+		
+ 		"OnSpellStart"
+		{     	         
+			  		  
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"CreatTree"
+					"Target" 			"POINT"					
+				}
+				
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"RemoveItemFromHero"
+					"item_name"			"item_branch"
+				}
+
+		}
+		
+   }
+   
+	"item_masking_dirt"
+   {
+		"ID"							"1210" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/props_nature/bush_00.vmdl" 
+		"AbilityTextureName"			"masking_dirt" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_masking_dirt"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0"
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" // Не трогаем.
+		"ItemInitialCharges" "1" //How many charges should the item start with - Tango x3 
+		"ItemStackable" "1"
+		"ItemPermanent" "0"
+	
+   
+		"OnSpellStart"
+		{     	         
+			  		  
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"GiveInvisible"
+				}
+				
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"RemoveItemFromHero"
+					"item_name"			"item_masking_dirt"					
+				}
+		}  	
+  
+   }
+   
+ 
+	"item_grid"
+   {
+		"ID"							"1211" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"AbilityCastRange"				"500"
+		"AbilityCastPoint"				"0"
+		"AbilityCooldown"				"3.0"		
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"		
+		"Model"							"models/particle/net.vmdl" 
+		"AbilityTextureName"			"grid" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_grid"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" // Не трогаем.
+	
+   
+		"OnSpellStart"
+		{     	         
+			  		  
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"CreatGrid"
+				}
+				
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"RemoveItemFromHero"
+					"item_name"			"item_grid"					
+				}
+		}  	
+  
+   }
+   
+ 
+   "item_bone_knife"
+   {
+		"ID"							"1212" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/pets/items/bone001.vmdl" 
+		"AbilityTextureName"			"bone_knife" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_bone_knife"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"			"items.lua"
+				"Function"				"AddAbilityToHero"
+				"ability_name"			"spurt_with_a_knife"
+			}
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"			"items.lua"
+				"Function"				"RemoveAbilityFromHero"
+				"ability_name"			"spurt_with_a_knife"
+				"item_name"				"item_bone_knife"				
+			}
+		}		
+		
+		
+		
+   }     
+   
+
+   "item_bow"
+   {
+		"ID"							"1213" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/items/rattletrap/battletrap_weapon/battletrap_weapon.vmdl" 
+		"AbilityTextureName"			"bow" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_bow"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"ItemInitialCharges" 		"1"  
+		"ItemStackable" 			"1"
+		"ItemPermanent" 			"0"		
+		
+		
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"			"items.lua"
+				"Function"				"AddAbilityToHero"
+				"ability_name"			"bow_shoot"
+			}
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"			"items.lua"
+				"Function"				"RemoveAbilityFromHero"
+				"ability_name"			"bow_shoot"
+				"item_name"				"item_bow"				
+			}
+		}	
+			
+   }     
+      
+ 
+   "item_club"
+   {
+		"ID"							"1214" 
+		"BaseClass"						"item_datadriven"  
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"	
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Model"							"models/items/ogre_magi/embersceptre/embersceptre.vmdl" 
+		"AbilityTextureName"			"club" 
+		"ItemCost"                       "1" 
+		"ItemAliases"					"item_club"
+		"ItemDroppable"					"1" 
+		"ItemPurchasable"				"0" 
+		"ItemSellable"					"0" 
+		"ItemKillable"					"1" 
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"  
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+			
+		"OnEquip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"			"items.lua"
+				"Function"				"AddAbilityToHero"
+				"ability_name"			"blow_bat"
+			}
+		
+		}
+			
+		"OnUnequip"
+		{
+			"RunScript"
+			{
+				"ScriptFile"			"items.lua"
+				"Function"				"RemoveAbilityFromHero"
+				"ability_name"			"blow_bat"
+				"item_name"				"item_club"				
+			}
+		}	
+			
+   }  
+
+
+	"item_snap_trap"
+   {
+		"ID"						"1215" 
+		"BaseClass"					"item_datadriven" 
+		"AbilityBehavior"         	"DOTA_ABILITY_BEHAVIOR_ITEM | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED " 
+		"Model"						"models/items/bounty_hunter/back_jawtrap.vmdl" 
+		"AbilityTextureName"		"snap_trap" 
+		"ItemCost"                  "1" 
+		"ItemAliases"				"item_snap_trap"		
+		"ItemDroppable"				"1" 
+		"ItemPurchasable"			"0" 
+		"ItemSellable"				"0" 
+		"ItemKillable"				"0"  
+		"ItemDeclarations"			"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH" 
+		"AbilityCooldown"           "1"
+		"AbilityCastRange"			"100"
+		"AoERadius"               	"60"
+		"AbilityCastPoint"			"0.2"
+		"AbilityChannelTime"		"1.0"
+		"ItemShareability"			"ITEM_FULLY_SHAREABLE"
+		"ItemInitialCharges" 		"1"  
+		"ItemStackable" 			"1"
+		"ItemPermanent" 			"0"
+		"AbilityManaCost"				"10"
+   
+		"OnChannelSucceeded"
+		{     	         
+			  
+				"SpawnUnit"
+				{
+					"UnitName"		"snap_trap"
+					"UnitCount"		"1"
+					"SpawnRadius"	"0"
+					"Target"		"POINT"
+					"OnSpawn"
+					{
+						"RunScript"
+						{
+							"ScriptFile"		"items.lua"
+							"Function"			"CreateSnapTrap"
+						}
+					}
+
+
+				}
+
+				"RunScript"
+				{
+					"ScriptFile"		"items.lua"
+					"Function"			"RemoveItemFromHero"
+					"item_name"			"item_snap_trap"					
+				}
+
+
+		}  	
+  
+   }
+
+ 
 }

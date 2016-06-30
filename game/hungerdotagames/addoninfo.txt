@@ -1,12 +1,12 @@
 "AddonInfo"
 {
 
-	"TeamCount"  "1"
-	"maps"  "hdg_minimap"
+	"TeamCount"  "5"
+	"maps"  "hdg_survival_small"
 	"IsPlayable" "1"
-	"hdg_minimap"
+	"hdg_survival_small"
  	{
-  		"MaxPlayers" "6"
+  		"MaxPlayers" "5"
  	}
 
 

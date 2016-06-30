@@ -1,3 +1,9 @@
+if HDG == nil then
+	_G.HDG = class({})
+	print("HDG beta")
+end
+
+
 counterDeathsGG = 0
 counterDeathsBG = 0
 

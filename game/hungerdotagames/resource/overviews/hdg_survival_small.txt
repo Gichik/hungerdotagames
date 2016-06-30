@@ -1,0 +1,8 @@
+hdg_survival_small
+{
+	material materials/overviews/hdg_survival_small.vmat
+	pos_x -4096
+	pos_y 4096
+	scale 8.000
+}
+

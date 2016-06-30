@@ -1,0 +1,20 @@
+"addon"
+{
+	"Unassigned"      								"Unassigned Team"
+	"Spectator"       								"Spectator Team"
+	"Neutrals"        								"Neutral Team"
+	"NoTeam"          								"No Team"
+
+	"DOTA_GoodGuys"   								"Districtus 1"
+	"DOTA_BadGuys"    								"Districtus 2"
+	"DOTA_Custom1"    								"Districtus 3"
+	"DOTA_Custom2"    								"Districtus 4"
+	"DOTA_Custom3"    								"Districtus 5"
+	"DOTA_Custom4"    								"Districtus 6"
+	"DOTA_Custom5"    								"Districtus 7"
+	"DOTA_Custom6"    								"Districtus 8"
+	"DOTA_Custom7"    								"Districtus 9"
+	"DOTA_Custom8"    								"Districtus 10"
+	
+	"addonname"										"Hunger Dota Games"
+}

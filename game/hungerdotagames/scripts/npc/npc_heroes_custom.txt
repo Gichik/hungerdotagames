@@ -3,5 +3,296 @@
 // the specified key-value combinations.  Use override_hero <hero_to_override> for this.
 "DOTAHeroes"
 {
+	//=================================================================================================================
+	// HERO: man
+	//=================================================================================================================
+	"npc_dota_hero_juggernaut"
+	{
+		"override_hero"				"npc_dota_hero_juggernaut"			// Hero to override
+		"AbilityLayout"				"5"
+		"Ability1"					"change_craft"		
+		"Ability2"					"craft_masking_dirt"			
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""
+		"Ability6"					""
+		"Ability7"					""
+		"Ability8"					""
+		
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"1"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseIntelligence"	"1"
+		"AttributeIntelligenceGain"	"0"
+		"AttributeBaseAgility"		"1"
+		"AttributeAgilityGain"		"0"
 
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"			"81"
+		"StatusHealthRegen"		"0"
+		"StatusMana"			"87"
+		"StatusManaRegen"		"1"
+		
+		// Vision
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"		"1000"
+		"VisionNighttimeRange"		"600"
+		
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------		
+		"ArmorPhysical"			"0"
+		"MagicalResistance"		"0"
+		
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"5"
+		"AttackDamageMax"		"15"
+		"AttackRate"		"1.450000"
+		"AttackAnimationPoint"		"0.300000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"128"
+		"ProjectileSpeed"		"0"
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementSpeed"		"315"
+
+	}
+	
+	
+	"npc_dota_hero_windrunner"
+	{
+		"override_hero"				"npc_dota_hero_windrunner"			// Hero to override
+		"AbilityLayout"				"5"
+		"Ability1"					"change_craft"		
+		"Ability2"					"craft_masking_dirt"			
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""
+		"Ability6"					""
+		"Ability7"					""
+		"Ability8"					""
+		
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"1"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseIntelligence"	"1"
+		"AttributeIntelligenceGain"	"0"
+		"AttributeBaseAgility"		"1"
+		"AttributeAgilityGain"		"0"
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"			"81"
+		"StatusHealthRegen"		"0"
+		"StatusMana"			"87"
+		"StatusManaRegen"		"1"
+		
+		// Vision
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"		"1000"
+		"VisionNighttimeRange"		"600"
+		
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------		
+		"ArmorPhysical"			"0"
+		"MagicalResistance"		"0"
+		
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"5"
+		"AttackDamageMax"		"15"
+		"AttackRate"		"1.450000"
+		"AttackAnimationPoint"		"0.300000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"128"
+		"ProjectileSpeed"		"0"
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementSpeed"		"315"
+
+	}	
+	
+	
+	"npc_dota_hero_beastmaster"
+	{
+		"override_hero"				"npc_dota_hero_beastmaster"			// Hero to override
+		"AbilityLayout"				"5"
+		"Ability1"					"change_craft"		
+		"Ability2"					"craft_masking_dirt"			
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""
+		"Ability6"					""
+		"Ability7"					""
+		"Ability8"					""
+		
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"1"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseIntelligence"	"1"
+		"AttributeIntelligenceGain"	"0"
+		"AttributeBaseAgility"		"1"
+		"AttributeAgilityGain"		"0"
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"			"81"
+		"StatusHealthRegen"		"0"
+		"StatusMana"			"87"
+		"StatusManaRegen"		"1"
+		
+		// Vision
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"		"1000"
+		"VisionNighttimeRange"		"600"
+		
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------		
+		"ArmorPhysical"			"0"
+		"MagicalResistance"		"0"
+		
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"5"
+		"AttackDamageMax"		"15"
+		"AttackRate"		"1.450000"
+		"AttackAnimationPoint"		"0.300000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"128"
+		"ProjectileSpeed"		"0"
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementSpeed"		"315"
+
+	}	
+
+
+	"npc_dota_hero_lycan"
+	{
+		"override_hero"				"npc_dota_hero_lycan"			// Hero to override
+		"AbilityLayout"				"5"
+		"Ability1"					"change_craft"		
+		"Ability2"					"craft_masking_dirt"			
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""
+		"Ability6"					""
+		"Ability7"					""
+		"Ability8"					""
+		
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"1"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseIntelligence"	"1"
+		"AttributeIntelligenceGain"	"0"
+		"AttributeBaseAgility"		"1"
+		"AttributeAgilityGain"		"0"
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"			"81"
+		"StatusHealthRegen"		"0"
+		"StatusMana"			"87"
+		"StatusManaRegen"		"1"
+		
+		// Vision
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"		"1000"
+		"VisionNighttimeRange"		"600"
+		
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------		
+		"ArmorPhysical"			"0"
+		"MagicalResistance"		"0"
+		
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"5"
+		"AttackDamageMax"		"15"
+		"AttackRate"		"1.450000"
+		"AttackAnimationPoint"		"0.300000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"128"
+		"ProjectileSpeed"		"0"
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementSpeed"		"315"
+
+	}	
+
+
+	"npc_dota_hero_crystal_maiden"
+	{
+		"override_hero"				"npc_dota_hero_crystal_maiden"			// Hero to override
+		"AbilityLayout"				"5"
+		"Ability1"					"change_craft"		
+		"Ability2"					"craft_masking_dirt"			
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""
+		"Ability6"					""
+		"Ability7"					""
+		"Ability8"					""
+		
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"		"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"1"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseIntelligence"	"1"
+		"AttributeIntelligenceGain"	"0"
+		"AttributeBaseAgility"		"1"
+		"AttributeAgilityGain"		"0"
+
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"StatusHealth"			"81"
+		"StatusHealthRegen"		"0"
+		"StatusMana"			"87"
+		"StatusManaRegen"		"1"
+		
+		// Vision
+		//-------------------------------------------------------------------------------------------------------------
+		"VisionDaytimeRange"		"1000"
+		"VisionNighttimeRange"		"600"
+		
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------		
+		"ArmorPhysical"			"0"
+		"MagicalResistance"		"0"
+		
+		// Attack
+		//-------------------------------------------------------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"		"5"
+		"AttackDamageMax"		"15"
+		"AttackRate"		"1.450000"
+		"AttackAnimationPoint"		"0.300000"
+		"AttackAcquisitionRange"		"600"
+		"AttackRange"		"128"
+		"ProjectileSpeed"		"0"
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementSpeed"		"315"
+
+	}		
+	
 }

@@ -2,7 +2,6 @@
 {
 	"consumables"
 	{
-		"item"		"item_clarity"
 		"item"		"item_flask"
 		"item"		"item_salve"
 		"item"		"item_tpscroll"
